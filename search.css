@@ -1,0 +1,50 @@
+.parent
+{
+    display: flex;
+    flex-wrap: nowrap;
+    /* align-items: flex-end; */
+    background-image: url(images/stars.jpg);
+    justify-content:center;
+    /* border: 2px black solid; */
+    height: 475px;
+}
+#target {
+    display: inline;
+    float: inline-start;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 100px;
+    color: white;
+    /* justify-content: flex-end; */
+}
+#found
+{
+    color: white;
+    font-size: 32px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/stars.jpg);
+    height: 95px;
+    /* border: black 2px solid; */
+}
+#LinearSearch ,#BinarySearch,#Reset{
+    display: inline;
+    border: 2px solid;
+    background-color: #A0EBE1;
+    margin: 10px;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#LinearSearch:hover ,#BinarySearch:hover,#Reset:hover
+{
+scale: 1.15;
+background-color: aquamarine;
+
+}
