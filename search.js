@@ -44,7 +44,7 @@ async function functionBinary() {
     let temp = document.getElementById(a);
     temp.style.scale=1.15;
     temp.style.backgroundColor='red';
-    await sleep(500);
+    await sleep(1000);
     changeC(arr,mid);
     if(arr[mid]==target)
         {
@@ -81,7 +81,7 @@ async function functionLinear()
         var temp=document.getElementById('elem'+i);
         temp.style.scale=1.15;
         temp.style.backgroundColor='red';
-        await sleep(500);
+        await sleep(1000);
         changeC(arr,i);
         target=document.getElementById('t').value;
         if(arr[i]==target)
